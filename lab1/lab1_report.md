@@ -1,17 +1,17 @@
-University: [ITMO University](https://itmo.ru/ru/)
+University: **[ITMO University](https://itmo.ru/ru/)**
 
-Faculty: [FICT](https://fict.itmo.ru)
+Faculty: **[FICT](https://fict.itmo.ru)**
 
-Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
+Course: **[Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)**
 
-Year: 2023/2024
+Year: **2023/2024**
 
-Group: K4111C
+Group: **K4111C**
 
-Author: Valitov Maxim Vasilievich
+Author: **Valitov Maxim Vasilievich**
 
-Lab: Lab1
-Date of create: 18.10.2023
+Lab: **Lab1**
+Date of create: **18.10.2023**
 Date of finished:
 
 # 1. Запуск Minikube
