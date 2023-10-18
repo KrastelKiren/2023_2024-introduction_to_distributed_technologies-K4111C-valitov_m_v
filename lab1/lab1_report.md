@@ -16,7 +16,7 @@ minikube start --driver=docker
 ![pics/1](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/pics/1.png?raw=true)  
 **--driver = docker** позволяет явно указать драйвер для миникуба
 # 2. Написание манифеста
-Манифет представлен в [этом файле]()
+Манифет представлен в [этом файле](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/Manifest.yaml)
 
 Разберём его основные строки:
 - **apiVersion** — используемая для создания объекта версия API Kubernetes
