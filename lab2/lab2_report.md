@@ -11,7 +11,7 @@ Date of finished:
 # 1. Запуск Minikube  
 - Запускаем minikube: 
 ```
-minikube start --driver=docker
+minikube start
 ```
 ![pics/1](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab2/pics/1.png?raw=true)  
 # 2. Написание манифеста  
