@@ -15,7 +15,7 @@ minikube start
 ```
 ![pics/1](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab2/pics/1.png?raw=true)  
 # 2. Написание манифеста  
-Манифет представлен в [этом файле]()  
+Манифет представлен в [этом файле](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab2/Manifest2.yaml)  
 Опишем новые строки:  
 - **kind: Deployment** - тип создаваемого объекта - Deployment. Это тип - это контроллер развертывания, который позволяет обновлять поды и реплики декларативно  
 - **spec** - требуемое состояние объекта. Параметры:  
