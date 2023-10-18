@@ -33,20 +33,15 @@ minikube start
 minikube cubectl -- apply -f Manifest2.yaml
 ```
 ![pics/2](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab2/pics/2.png?raw=true)
-- Смотрим, какие объекты были созданы:
-```
-minikube kubectl get all
-```
-![pics/3](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab2/pics/3.png?raw=true)
-Как мы видим, был создан deployment, replicaset и 2 контейнера.
 
 - Создаём сервис для доступа к контейнеру:
 ```
 minikube kubectl -- expose deployment.apps secondlab-deployment --type=NodePort --port=3000
 ```
+![pics/3](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab2/pics/3.png?raw=true)
 - Проверяем список объектов:
 
-![pics/4](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab2/pics/4.png?raw=true)
+![pics/4](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab2/pics/4.png?raw=true)\
 - Запускаем и переходим на **http://localhost:3000**:
 ```
 minikube kubectl -- port-forward service/secondlab-deployment 3000:3000
