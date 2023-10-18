@@ -1,4 +1,4 @@
-University: [ITMO University](https://itmo.ru/ru/)
+University: [ITMO University](https://itmo.ru/ru/) \n
 Faculty: [FICT](https://fict.itmo.ru)
 Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
 Year: 2023/2024
