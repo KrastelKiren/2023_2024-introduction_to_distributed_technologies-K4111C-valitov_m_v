@@ -60,3 +60,13 @@ minikube kubectl logs vault
 - Пробуем авторизоваться по найденному токену:
 
 ![pics/7](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/pics/7.png?raw=true)  
+
+# 5. Схема организации контейнеров и сервисов
+![pics/scheme]([https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/pics/5.png?raw=true](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/pics/ЛР1.drawio)https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/pics/ЛР1.drawio)
+
+- API - Сервер API Kubernetes проверяет и настраивает данные для объектов api, которые включают модули, службы, контроллеры репликации и другие.
+- kube-controller-manager - это компонент плоскости управления, который отслеживает общее состояние кластера через api-сервер и вносит изменения, пытаясь приблизить текущее состояние к желаемому.
+- etcd - это хранилище данных в формате "ключ-значение", которое используется как основное хранилище всех данных кластера в Kubernetes.
+- kube-scheduler - это компонент плоскости управления, который отслеживает созданные поды без привязанного узла и выбирает узел, на котором они должны работать.
+- kubelet - агент, работающий на каждом узле в кластере. Он следит за тем, чтобы контейнеры были запущены в поде.
+- kube-proxy — сетевой прокси, работающий на каждом узле в кластере, который конфигурирует правила сети на узлах. При помощи них разрешаются сетевые подключения к вашими подам изнутри и снаружи кластера.
