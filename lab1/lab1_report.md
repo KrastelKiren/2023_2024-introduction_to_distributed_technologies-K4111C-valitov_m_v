@@ -62,7 +62,7 @@ minikube kubectl logs vault
 ![pics/7](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/pics/7.png?raw=true)  
 
 # 5. Схема организации контейнеров и сервисов
-![pics/scheme]([https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/pics/5.png?raw=true](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/pics/ЛР1.drawio)https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab1/pics/ЛР1.drawio?raw=true)
+![pics/scheme](https://raw.githubusercontent.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/ba4d5143c8425baa2a63d23c7f3b854316d4f873/lab1/pics/ЛР1.svg)
 
 - API - Сервер API Kubernetes проверяет и настраивает данные для объектов api, которые включают модули, службы, контроллеры репликации и другие.
 - kube-controller-manager - это компонент плоскости управления, который отслеживает общее состояние кластера через api-сервер и вносит изменения, пытаясь приблизить текущее состояние к желаемому.
