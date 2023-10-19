@@ -53,4 +53,4 @@ minikube kubectl -- port-forward service/secondlab-deployment 3000:3000
 ![pics/6](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab2/pics/6.png?raw=true)
 
 # 5. Схема организации контейнеров и сервисов
-![pics/scheme](https://raw.githubusercontent.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/8ee131cdff6ed220ff9cf1304fc11254950211c5/lab2/pics/ЛР2.svg)
+![pics/scheme](https://raw.githubusercontent.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/4b7788dc4686410eda973ca27db3a929818b8fa1/lab2/pics/ЛР2.svg)
