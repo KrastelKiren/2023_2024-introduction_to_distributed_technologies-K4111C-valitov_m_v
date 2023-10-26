@@ -78,5 +78,5 @@ minikube tunnel
 ![pics/5](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab3/pics/9.png?raw=true)
 
 # 4. Схема организации контейнеров и сервисов
-![pics/scheme](https://raw.githubusercontent.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/4b7788dc4686410eda973ca27db3a929818b8fa1/lab3/pics/ЛР3.svg)
+![pics/scheme](https://raw.githubusercontent.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/7c6cf8a48fa7a856b735082cb610f30526cfe707/lab3/pics/ЛР3.svg)
 
