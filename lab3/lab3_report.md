@@ -16,7 +16,7 @@ minikube start
 ![pics/1](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab3/pics/1.png?raw=true)  
 # 2. Написание манифеста 
 
-Манифет представлен в [этом файле]()  
+Манифет представлен в [этом файле](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab3/Manifest3.yaml)  
 Опишем новые строки:  
 - **kind: ConfigMap** - тип создаваемого объекта - ConfigMap. Это объект API, используемый для хранения неконфиденциальных данных в парах ключ-значение. В нашем случае, это переменные:  
   - REACT_APP_USERNAME = KrastelKiren-ConfigMap  
