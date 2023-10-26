@@ -59,8 +59,8 @@ minikube cubectl -- apply -f Manifest3.yaml
 ```
 minikube kubectl -- create -n itmo secret tls thirdlab-tls --key="lab.key" --cert="tls.crt"
 ```
-![pics/3](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab3/pics/6.png?raw=true)
-  - Secret TLS - это специальный тип, предназначенный для хранения созданного нами сертификата и ключа.  
+![pics/3](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab3/pics/6.png?raw=true)  
+  - Secret TLS - это специальный тип, предназначенный для хранения созданного нами сертификата и ключа.
 
 - Проверяем список объектов:
 
