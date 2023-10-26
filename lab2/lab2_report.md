@@ -6,7 +6,7 @@ Group: K4111C
 Author: Valitov Maxim Vasilievich  
 Lab: Lab2  
 Date of create: 18.10.2023  
-Date of finished:  
+Date of finished: 19.10.2023  
 
 # 1. Запуск Minikube  
 - Запускаем minikube: 
