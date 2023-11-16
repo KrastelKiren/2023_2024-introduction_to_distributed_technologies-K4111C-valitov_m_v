@@ -67,14 +67,14 @@ kubectl-calico apply -f Manifest4_Calico.yaml
 ```
 ![pics/8](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab4/pics/8.png?raw=true)  
 
--Проверяем, всё ли успешно создано
+- Проверяем, всё ли успешно создано
 ```
 kubectl-calico get ipp  
 ```
 ![pics/9](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab4/pics/9.png?raw=true)
 
 # 4. Написание манифеста
-Манифест для calico представлен в [этом файле](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab4/Manifest4.yaml)  
+Манифест представлен в [этом файле](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab4/Manifest4.yaml)  
 Этот манифест ничем не отличается от предыдущих лабораторных работ, так что описывать его не буду.  
 
 - Проверяем, созданные поды
