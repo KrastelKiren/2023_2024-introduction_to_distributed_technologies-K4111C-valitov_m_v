@@ -65,7 +65,8 @@ minikube kubectl -- get nodes -l rack=1
 ```
 kubectl-calico apply -f Manifest4_Calico.yaml
 ```
-![pics/8](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab4/pics/8.png?raw=true)
+![pics/8](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab4/pics/8.png?raw=true)  
+
 -Проверяем, всё ли успешно создано
 ```
 kubectl-calico get ipp  
