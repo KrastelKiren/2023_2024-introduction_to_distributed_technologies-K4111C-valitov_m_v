@@ -54,7 +54,12 @@ minikube kubectl -- get nodes -l rack=1
 Манифест для calico представлен в [этом файле](https://github.com/KrastelKiren/2023_2024-introduction_to_distributed_technologies-K4111C-valitov_m_v/blob/main/lab4/Manifest4_Calico.yaml)  
 Этот манифест создаёт новые IPPool'ы для каждой ноды, основываясь на их метках  
 Опишем новые строки:  
-- **kind: ConfigMap** 
+- **kind: IPPool** - тип создаваемого объекта - IPPool. IPPool - это набор IP-адресов для Calico.
+- **spec** - спецификация IPPool
+  - **cidr** - Диапазон IP-адресов, который будет использоваться для этого пула.
+  - **ipipMode** - параметр, который определяет режим использования протокола IP-in-IP (IPIP).
+  - **natOutgoing** - параметр, который определяет будет ли выполняться Network Address Translation (NAT) при исходящем сетевом трафике из пула IP-адресов.
+  - **nodeSelector** - выбор узлов, которым Calico IPAM должен назначить адреса из этого пула.
 
 - Применяем манифест
 ```
